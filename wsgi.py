@@ -6,11 +6,11 @@ def hello():
     return "Hello World! \n"
 
 @application.route("/ready")
-def hello():
+def ready():
     return "I am Ready! \n"
 
 @application.route("/health")
-def hello():
+def health():
     return "I am Healthy! \n"
 
 if __name__ == "__main__":
